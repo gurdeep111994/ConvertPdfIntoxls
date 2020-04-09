@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQ4fJnzBVULtGwOgI/CHFKk0U398hR1Y9pnh5RROMxaYV9EFTta6eeYtPnqngWeMfj+E03WbtaWDNlsWOtn37w==",
+  "success": true,
+  "projectFilePath": "E:\\Downloads\\pdf to excel-cs\\Convert only tables from PDF to Excel\\Sample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Romi\\.nuget\\packages\\iron.assets.rendering.windows\\16.0.0\\iron.assets.rendering.windows.16.0.0.nupkg.sha512",
+    "C:\\Users\\Romi\\.nuget\\packages\\ironpdf\\2020.1.0\\ironpdf.2020.1.0.nupkg.sha512",
+    "C:\\Users\\Romi\\.nuget\\packages\\pdf.core\\2020.0.0\\pdf.core.2020.0.0.nupkg.sha512",
+    "C:\\Users\\Romi\\.nuget\\packages\\sautinsoft.pdffocus\\7.5.3.27\\sautinsoft.pdffocus.7.5.3.27.nupkg.sha512"
+  ],
+  "logs": []
+}

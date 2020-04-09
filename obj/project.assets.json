@@ -1,0 +1,316 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Iron.Assets.Rendering.Windows/16.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        }
+      },
+      "IronPdf/2020.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Iron.Assets.Rendering.Windows": "16.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net40/IronPdf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.dll": {}
+        }
+      },
+      "PDF.Core/2020.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf": "2020.1.0"
+        }
+      },
+      "sautinsoft.pdffocus/7.5.3.27": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "Iron.Assets.Rendering.Windows/16.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        }
+      },
+      "IronPdf/2020.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Iron.Assets.Rendering.Windows": "16.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net40/IronPdf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.dll": {}
+        }
+      },
+      "PDF.Core/2020.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf": "2020.1.0"
+        }
+      },
+      "sautinsoft.pdffocus/7.5.3.27": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "Iron.Assets.Rendering.Windows/16.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        }
+      },
+      "IronPdf/2020.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Iron.Assets.Rendering.Windows": "16.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net40/IronPdf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.dll": {}
+        }
+      },
+      "PDF.Core/2020.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf": "2020.1.0"
+        }
+      },
+      "sautinsoft.pdffocus/7.5.3.27": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "Iron.Assets.Rendering.Windows/16.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.Assets.Rendering.Windows.dll": {}
+        }
+      },
+      "IronPdf/2020.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Iron.Assets.Rendering.Windows": "16.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net40/IronPdf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/IronPdf.dll": {}
+        }
+      },
+      "PDF.Core/2020.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf": "2020.1.0"
+        }
+      },
+      "sautinsoft.pdffocus/7.5.3.27": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SautinSoft.PdfFocus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iron.Assets.Rendering.Windows/16.0.0": {
+      "sha512": "OsQYGXdaOCjDCHCKfNOMBvqaVJt+rq0DN9jw8ImS8ZkeWnqIAVaVBl8y6lFttF/5HFYnBc9dvA8sWDSSX9wCMA==",
+      "type": "package",
+      "path": "iron.assets.rendering.windows/16.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "iron.assets.rendering.windows.16.0.0.nupkg.sha512",
+        "iron.assets.rendering.windows.nuspec",
+        "lib/net40/IronPdf.Assets.Rendering.Windows.dll"
+      ]
+    },
+    "IronPdf/2020.1.0": {
+      "sha512": "ZAaCXCab7HeccK2EpX3DJZEMvqOYe6SFi99igsOsITKmJ2KtlzYqvZEg9+ZzoXUV5doR4oq6q6pkvLS1aygU8Q==",
+      "type": "package",
+      "path": "ironpdf/2020.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ironpdf.2020.1.0.nupkg.sha512",
+        "ironpdf.nuspec",
+        "lib/net40/IronPdf.dll",
+        "lib/net40/IronPdf.xml",
+        "lib/netstandard2.0/IronPdf.dll",
+        "lib/netstandard2.0/IronPdf.xml",
+        "readme.txt"
+      ]
+    },
+    "PDF.Core/2020.0.0": {
+      "sha512": "bpR8QA3gTzFSHqkTQ010UmZ46KtJtUDMcTG3W2uXINCOB9XUD+qaU5qX4ZNVaR2pkPdrUhpwPj7XYEOmasj0QQ==",
+      "type": "package",
+      "path": "pdf.core/2020.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Pdf.Core.Readme.txt",
+        "pdf.core.2020.0.0.nupkg.sha512",
+        "pdf.core.nuspec"
+      ]
+    },
+    "sautinsoft.pdffocus/7.5.3.27": {
+      "sha512": "Ok0sFVqIjA1mW3Yo6ElbiyvnrS47FBy0v+Bcoas5CMbWsR0vokjbEUztq86olu2JCTHeH4k/NzZiV0XaPicgiA==",
+      "type": "package",
+      "path": "sautinsoft.pdffocus/7.5.3.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SautinSoft.PdfFocus.XML",
+        "lib/net40/SautinSoft.PdfFocus.dll",
+        "lib/net45/SautinSoft.PdfFocus.XML",
+        "lib/net45/SautinSoft.PdfFocus.dll",
+        "lib/net461/SautinSoft.PdfFocus.XML",
+        "lib/net461/SautinSoft.PdfFocus.dll",
+        "lib/net47/SautinSoft.PdfFocus.XML",
+        "lib/net47/SautinSoft.PdfFocus.dll",
+        "lib/net48/SautinSoft.PdfFocus.dll",
+        "lib/net48/SautinSoft.PdfFocus.xml",
+        "lib/netcoreapp2.0/SautinSoft.PdfFocus.XML",
+        "lib/netcoreapp2.0/SautinSoft.PdfFocus.deps.json",
+        "lib/netcoreapp2.0/SautinSoft.PdfFocus.dll",
+        "lib/netcoreapp2.1/SautinSoft.PdfFocus.XML",
+        "lib/netcoreapp2.1/SautinSoft.PdfFocus.deps.json",
+        "lib/netcoreapp2.1/SautinSoft.PdfFocus.dll",
+        "lib/netcoreapp2.2/SautinSoft.PdfFocus.XML",
+        "lib/netcoreapp2.2/SautinSoft.PdfFocus.deps.json",
+        "lib/netcoreapp2.2/SautinSoft.PdfFocus.dll",
+        "lib/netcoreapp3.0/SautinSoft.PdfFocus.XML",
+        "lib/netcoreapp3.0/SautinSoft.PdfFocus.deps.json",
+        "lib/netcoreapp3.0/SautinSoft.PdfFocus.dll",
+        "lib/netcoreapp3.1/SautinSoft.PdfFocus.XML",
+        "lib/netcoreapp3.1/SautinSoft.PdfFocus.deps.json",
+        "lib/netcoreapp3.1/SautinSoft.PdfFocus.dll",
+        "lib/netstandard2.0/SautinSoft.PdfFocus.XML",
+        "lib/netstandard2.0/SautinSoft.PdfFocus.deps.json",
+        "lib/netstandard2.0/SautinSoft.PdfFocus.dll",
+        "sautinsoft.pdffocus.7.5.3.27.nupkg.sha512",
+        "sautinsoft.pdffocus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "PDF.Core >= 2020.0.0",
+      "sautinsoft.pdffocus >= 7.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Romi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Downloads\\pdf to excel-cs\\Convert only tables from PDF to Excel\\Sample.csproj",
+      "projectName": "Sample",
+      "projectPath": "E:\\Downloads\\pdf to excel-cs\\Convert only tables from PDF to Excel\\Sample.csproj",
+      "packagesPath": "C:\\Users\\Romi\\.nuget\\packages\\",
+      "outputPath": "E:\\Downloads\\pdf to excel-cs\\Convert only tables from PDF to Excel\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "PDF.Core": {
+            "target": "Package",
+            "version": "[2020.0.0, )"
+          },
+          "sautinsoft.pdffocus": {
+            "target": "Package",
+            "version": "[7.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
